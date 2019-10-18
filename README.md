@@ -1,10 +1,6 @@
-# A 2048 Deep Learning AI (that does not suck)
+# A 2048 Deep Learning AI 
 
 I didn't think neural network is particularly suitable for solving 2048 puzzle, but I implement one anyway. Turns out the result is not too bad, at least much better than I expected.
-
-See it in action http://tjwei.github.io/2048-NN/ and in Video https://www.youtube.com/watch?v=oRC2W38lxIE
-
-Nueral Netowrk AI for the game [2048](https://github.com/gabrielecirulli/2048).
 
 It is a fork of http://ov3y.github.io/2048-AI/ and replace the AI part by a neural network.
 
@@ -42,13 +38,9 @@ The following graph shows how many games left after certain steps in the 100K si
 <img src="plot2.png" />
 
 The graph indicates that the AI performs relatively weak in early stage of the game.
-
-
-
 Without the help of human made features and heuristics like what is used in https://github.com/nneonneo/2048-ai , the network can still reaches at least 75% success rate for the same network architecture. 
 
 A much smaller model trained without using any human made features and heuristics reaches 47% of success rate, can be found at http://github.com/tjwei/rl/
-
 
 The `animationDelay` is set to 10. You can make it run faster or slower with a different delay time. 
 
